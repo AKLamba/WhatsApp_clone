@@ -6,8 +6,17 @@ import {
 } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 import { initializeFirestore } from "firebase/firestore";
+// const firebaseConfig = {
+//  // your config goes here
+// };
 const firebaseConfig = {
- // your config goes here
+  apiKey: "AIzaSyDSeA2oDsTrisRRLERyipb6aAZbEQzwljA",
+  authDomain: "clone-wa-1cfbc.firebaseapp.com",
+  projectId: "clone-wa-1cfbc",
+  storageBucket: "clone-wa-1cfbc.appspot.com",
+  messagingSenderId: "496192761084",
+  appId: "1:496192761084:web:ddda71add5b1fd4ca9fb79",
+  measurementId: "G-50259SLBDQ"
 };
 
 export const app = initializeApp(firebaseConfig);
